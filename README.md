@@ -1,5 +1,4 @@
 # Welkom in mijn functional programming project. 🔱
-![Concept tekening v1](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-5.jpg)
 In deze repo vind je een prototype applicatie voor een interactieve board. Deze applicatie kan het volgende:
 * Een statische website maken
 * JSON en Query data ophalen
@@ -39,6 +38,7 @@ package.json
 
 ## Documentatie 📖
 Het concept en waarvoor deze applicatie is bedoeld kan je lezen in de [wiki](https://github.com/Loquino/functional-programming/wiki).
+![Concept tekening v1](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-5.jpg)
 
 ## Issues 🍐
 Dankjewel voor het lezen of gebruik maken van deze app! Mocht er fout zitten in mijn code of iets wat je opvalt laat het mij weten door een issue te starten en we zullen er samen naar kijken, saludos :).
