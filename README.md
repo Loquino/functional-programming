@@ -37,7 +37,7 @@ package.json
 ` npm run dev `
 
 ## Documentatie 📖
-Het concept waarvoor deze applicatie is bedoeld kan je lezen in de [wiki](https://github.com/Loquino/functional-programming/wiki).
+Het concept en waarvoor deze applicatie is bedoeld kan je lezen in de [wiki](https://github.com/Loquino/functional-programming/wiki).
 
 ## Issues 🍐
-Dankjewel voor het lezen of gebruik maken van deze app! Mocht er fout zitten in mijn code of iets wat je opvalt laat het mij weten door een issue te starten en ik zal het doorvoeren :).
+Dankjewel voor het lezen of gebruik maken van deze app! Mocht er fout zitten in mijn code of iets wat je opvalt laat het mij weten door een issue te starten en we zullen er samen naar kijken, saludos :).
