@@ -6,7 +6,7 @@ In deze repo vind je een prototype applicatie voor een interactieve board. Deze 
 * Lengte formaten opschonen
 
 # Installatie 🛠
-- Clone deze repo 
+1. Clone deze repo 
 
 **Installeer:**
 
@@ -32,7 +32,7 @@ package.json
   },
 ```
 
-**Applicatie starten**
+2. Applicatie starten
 
 ` npm run dev `
 
