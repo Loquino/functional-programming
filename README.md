@@ -11,12 +11,15 @@ In deze repo vind je een prototype applicatie voor een interactieve board. Deze 
 **Installeer:**
 
 node modules
+
 ` npm install -dev `
 
 express
+
 ` npm install `
 
 nodemon 
+
 ` npm install nodemon `
 
 **Bewerking**
@@ -27,7 +30,6 @@ package.json
     "start": "node index",
     "dev": "nodemon index"
   },
-
 ```
 
 **Applicatie starten**
