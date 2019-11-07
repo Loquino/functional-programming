@@ -11,27 +11,27 @@ In deze repo vind je een prototype applicatie voor een interactieve board. Deze 
 **Installeer:**
 
 node modules
-´ npm install -dev ´
+` npm install -dev `
 
 express
-´ npm install ´
+` npm install `
 
 nodemon 
-´ npm install nodemon ´
+` npm install nodemon `
 
 **Bewerking**
 
 package.json
-´´´ 
+```
  "scripts": {
     "start": "node index",
     "dev": "nodemon index"
   },
 
-´´´
+```
 
 **Applicatie starten**
-´ npm run dev ´
+` npm run dev `
 
 ## Documentatie 📖
 Het concept waarvoor deze applicatie is bedoeld kan je lezen in de [wiki](https://github.com/Loquino/functional-programming/wiki).
