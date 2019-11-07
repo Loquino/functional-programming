@@ -4,11 +4,16 @@
   "description": "This is my app for the infographic of my project for functional programing.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "Deiver Cortez",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "node": "^12.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
