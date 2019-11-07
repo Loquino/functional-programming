@@ -33,6 +33,7 @@ package.json
 ```
 
 **Applicatie starten**
+
 ` npm run dev `
 
 ## Documentatie 📖
