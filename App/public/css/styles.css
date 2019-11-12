@@ -3,3 +3,34 @@ body {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.flexie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexie__item {
+    flex: 0 0 calc(50% - 10px);
+}
+
+/* .hidden-overflow {
+    overflow-x: hidden;
+}
+ */
+
+body, h1, h2, h3, h4, h5 {
+    margin: 0;
+} 
+
+header {
+    padding: 1% 2%;
+    background: #ffff;
+    color: #458263;
+    margin: 0 0 3em 0;
+}
+header 
+
+section div {
+    display: flex;
+}

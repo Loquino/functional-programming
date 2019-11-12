@@ -9,13 +9,35 @@
 </head>
 <body>
     <header> <h1>This is my app</h1></header>
-    <main>
-        <p>JE MOEDER!!</p>
-        <p id="displaydata"></p>
+    <main class="flexie">
+        <section class="flexie__item">
+            <div>
+                <div onload="draw();">
+                    <canvas id="canvas" width="150" height="150"></canvas>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="scroller-inner flexie">
+                <article class="flexie__item">
+                    <h2 id="title">Item</h2>
+                    <img class="id-of-img-tag" src="" alt="img" style=" height: 300px;">
+                    <p>Know the unknown</p>    
+                    <p id="displaydata"></p>
+                </article>
+                <article class="flexie__item">
+                    <h2 id="title">Item 2</h2>
+                    <img class="id-of-img-tag" src="" alt="img" style=" height: 300px;">
+                    <p>Know the unknown</p>    
+                    <p id="displaydata"></p>
+                </article>
+            </div>
+        </section>
     </main>
     
     <footer></footer>
     <!-- <script src="js/query.js"></script> -->
+    <script src="js/v-figure.js"></script>
     <script src="js/data.js"></script>
     <script src="js/functions.js"></script>
 </body>
