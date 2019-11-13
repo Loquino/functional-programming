@@ -115,3 +115,17 @@ console.log(vermenigvuldigdoortwee(2) + ' dit is een test over de multiplicator 
 
 
 
+/*
+// functional programing 2.0
+let cleaning = x.map(size => size {
+size = size.replace();
+
+if (size == 2){
+    size = size.replace('2', '')
+} els {
+
+}
+
+};*/
+
+

@@ -32,13 +32,19 @@ function runQuery(url, query){
   // (you can improve this script by making the next part of this function wait for a succesful result)
 
 	// Call the url with the query attached, output data
-	fetch(url+"?query="+ encodeURIComponent(query) +"&format=json")
-	.then(res => res.json())
-	.then(json => {
-	// console.log(json)
-  console.table(json.results.bindings);
+  fetch(url+"?query="+ encodeURIComponent(query) +"&format=json")
+  .then(res => res.json())
+  .then(json => {// console.log(json) 
+    console.table(json.results.bindings);
+    let dataQuery = json.results.bindings;
+    let dataArrQue = goederen.map(goederen => goederen.lengte.value);
 
   })
+  
 }
 
+
 runQuery(url, query)
+
+let dataQuery = dataResults;
+console.log(dataArrQue);

@@ -8,29 +8,51 @@
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-    <header> <h1>This is my app</h1></header>
+    <header> <h1><img src="img/logo.svg" alt=""></h1></header>
     <main class="flexie">
-        <section class="flexie__item">
+        <section>
             <div>
+
                 <div onload="draw();">
                     <canvas id="canvas" width="150" height="150"></canvas>
+                    <p class="pop-dimension"><img id="pops" src="img/pop.svg"></p>
                 </div>
             </div>
         </section>
         <section>
-            <div class="scroller-inner flexie">
-                <article class="flexie__item">
-                    <h2 id="title">Item</h2>
-                    <img class="id-of-img-tag" src="" alt="img" style=" height: 300px;">
+            <div class="scroller-section">
+                <article>
+                    <img id="item1" src="" alt="img" style=" height: 300px;">
+                    <h2 id="title1">Item 1</h2>
                     <p>Know the unknown</p>    
                     <p id="displaydata"></p>
                 </article>
-                <article class="flexie__item">
-                    <h2 id="title">Item 2</h2>
-                    <img class="id-of-img-tag" src="" alt="img" style=" height: 300px;">
+                <article>
+                    <img id="item2" src="" alt="img" style=" height: 300px;">
+                    <h2 id="title2">Item 2</h2>
                     <p>Know the unknown</p>    
                     <p id="displaydata"></p>
                 </article>
+                <article>
+                    <img id="item3" src="" alt="img" style=" height: 300px;">
+                    <h2 id="title3">Item 3</h2>
+                    <p>Know the unknown</p>    
+                    <p id="displaydata"></p>
+                </article>
+                <article>
+                   
+                    <img id="item4" src="" alt="img" style=" height: 300px;">
+                    <h2 id="title4">Item 4</h2>
+                    <p>Know the unknown</p>    
+                    <p id="displaydata"></p>
+                </article>
+                <article>
+                    <img id="item5" src="" alt="img" style=" height: 300px;">
+                    <h2 id="title5">Item 5</h2>
+                    <p>Know the unknown</p>    
+                    <p id="displaydata"></p>
+                </article>
+              
             </div>
         </section>
     </main>

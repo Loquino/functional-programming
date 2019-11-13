@@ -1,23 +1,8 @@
 body {
-    background: #3F3F3F;
-    color: #fff;
+    background: #fff;
+    color: #3F3F3F;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.flexie {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.flexie__item {
-    flex: 0 0 calc(50% - 10px);
-}
-
-/* .hidden-overflow {
-    overflow-x: hidden;
-}
- */
 
 body, h1, h2, h3, h4, h5 {
     margin: 0;
@@ -28,9 +13,52 @@ header {
     background: #ffff;
     color: #458263;
     margin: 0 0 3em 0;
+    box-shadow: 0px 0px 15px -7px black;
 }
-header 
+h1 > img {
+    height: 2em;
+}
 
-section div {
+.flexie {
     display: flex;
+    ;
+}
+main{
+    margin: 0 2%;
+}
+
+
+main section {
+    position: relative;
+    margin-right: 1em;
+    background: #e3e3e3;
+}
+main section:nth-of-type(1){
+    width: 30%;
+}
+main section:nth-of-type(2){
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+article {
+    margin-right: 1em;
+}
+
+.scroller-section {
+    display: flex;
+    overflow: scroll;
+    margin: 1em;
+}
+/* ====CONCEPT ===  */
+canvas#canvas {
+    display: none;
+}
+p.pop-dimension {
+    margin: 1em 1em;
+}
+.pop-dimension img{
+    height: 22em;
 }
