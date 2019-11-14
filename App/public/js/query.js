@@ -44,7 +44,7 @@ SELECT ?cho ?title ?typeLabel ?lengte ?datum ?afb ?bes WHERE {
   getData(url, query)
 
   async function getData(url, query) {
-    try{
+    //try{
     const response = await fetch(url+ "?query=" + encodeURIComponent(query) + "&format=json");
     const json = await response.json();
     const dataKi = await json.results.bindings;
@@ -85,15 +85,15 @@ SELECT ?cho ?title ?typeLabel ?lengte ?datum ?afb ?bes WHERE {
                 
         )
 
-      }
+      //}
        // console.log(cleaningKi)
        // finally = return cleaningKi;
-       finally {
-        console.log(cleaningKi);
-      }
+      //  finally {
+      //   console.log(cleaningKi);
+      // }
     };
 
-    console.log(getData())
+   // console.log(getData())
 // let getQData = function(){
 //     cosole.log getData(cleaningKi);
 // }
