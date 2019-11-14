@@ -1,8 +1,18 @@
-//let dataset = [80, 100, 56, 120, 180, 30, 40, 120, 160];
+//let dataset = [80, 100, 56, 120, 180, 30, 40, 120, 160].sort(d3.ascending);
+let arr = cleaning;
+arr = arr.map(Number);
+console.log(arr);
 
-let dataset = cleaning;
+// Als de waardes in een array onder de '10' zijn haal ze dan weg van de array
+function isBigEnough(value) {
+    return value >= 10;
+  }
 
-let svgWidth = 999, svgHeight = 300, barPadding = 5;
+let filtered = arr.filter(isBigEnough);
+
+let dataset = filtered.sort(d3.ascending);
+
+let svgWidth = 6890, svgHeight = 350, barPadding = 5;
 let barWidth = 25;
 
 // De canvas van het staf daigram 

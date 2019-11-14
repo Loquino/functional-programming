@@ -6,7 +6,7 @@ let dataArray = goederen.map(goederen => goederen.lengte.value);
 let x = dataArray;
 
 let cleaning = 
-x.map(size => size
+x.map(size => size 
             //.replace(/cm/g, '')
             //.replace(/H/g, '')
             //.replace(/h/g, '')
