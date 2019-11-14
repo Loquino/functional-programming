@@ -27,24 +27,83 @@ SELECT ?cho ?title ?typeLabel ?lengte ?datum ?afb ?bes WHERE {
 } LIMIT 10000
 
 `
-function runQuery(url, query){
+// Daan voor vragen voor promises 
+// Wiebe voor klein naar groot
+
+
+/*
+//
+  - Van uit een functie
+  - Van uit een promises.
+//
+
+*/
   //Test if the endpoint is up and print result to page 
   // (you can improve this script by making the next part of this function wait for a succesful result)
 
+  getData(url, query)
+
+  async function getData(url, query) {
+    const response = await fetch(url+ "?query=" + encodeURIComponent(query) + "&format=json");
+    const json = await response.json();
+    const dataKi = await json.results.bindings;
+    //console.log(dataKi)
+
+    let dataArrayKi = dataKi.map(dataKi => dataKi.lengte.value);
+    
+
+    let x = dataArrayKi;
+    let cleaningKi = 
+    x.map(size => size
+                //.replace(/cm/g, '')
+                //.replace(/H/g, '')
+                //.replace(/h/g, '')
+                //.replace(/L/g, '')
+                .replace(/x/g, '')
+                .replace(/×/g, '')
+                .replace(/Dm/g, '')
+                .replace(/circa/g, '')
+                .replace(/midden/g, '')
+                .replace(/object/g, '')
+                .replace(/algemeen/g, '')
+                .replace(/,/g, '.')
+                .replace(/NI/g,'')
+                .replace('[]', '')
+                .replace('()', '')
+                .replace(';', '')
+                .replace(/[a-z]/g, '')
+                .replace(/[A-Z]/g, '')
+                .replace(/['"\u0040\u0026\u2122\u00ae]/g, '')
+                .replace(/[\r\n]+/g, ' ')
+                .replace(' ', '')
+                .slice(0,4)
+                .trim()
+                .replace( /( )\w(\w)\s/g, '')
+                .replace(/^\./, "")
+                .replace(/\s\d/g, '')
+                
+        )
+        console.log(cleaningKi)
+    };
+
+
+    //function runQuery(url, query){
 	// Call the url with the query attached, output data
-  fetch(url+"?query="+ encodeURIComponent(query) +"&format=json")
-  .then(res => res.json())
-  .then(json => {// console.log(json) 
-    console.table(json.results.bindings);
-    let dataQuery = json.results.bindings;
-    let dataArrQue = goederen.map(goederen => goederen.lengte.value);
+//   const response = await fetch(url+"?query="+ encodeURIComponent(query) +"&format=json");
+//   .then(res => res.json())
+//   .then(json => {
+//     // console.log(json);
+//     // console.log(json.results.bindings);
+//     let dataQuery = json.results.bindings;
+//     let dataArrQue = goederen.map(goederen => goederen.lengte.value);
+//     console.log(dataQuery);
+//     console.log(json.results.bindings);
 
-  })
+//   })
   
-}
+// }
 
 
-runQuery(url, query)
+//runQuery(url, query)
 
-let dataQuery = dataResults;
-console.log(dataArrQue);
+// let dataQuery = dataResults;

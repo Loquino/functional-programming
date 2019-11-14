@@ -36,19 +36,16 @@ x.map(size => size
             
     );
 
-
-
-
-
 // functie om een afbeelding op te halen & info
 function showDataOnDisplay(){
-    document.getElementById("title1").innerHTML = data.results.bindings[103].title.value;
-    document.getElementById("title2").innerHTML = data.results.bindings[50].title.value;
-    document.getElementById("title3").innerHTML = data.results.bindings[34].title.value;
-    document.getElementById("title4").innerHTML = data.results.bindings[78].title.value;
-    document.getElementById("title5").innerHTML = data.results.bindings[17].title.value;
+    document.getElementById("title1").textContent = data.results.bindings[103].title.value;
+    document.getElementById("title2").textContent = data.results.bindings[50].title.value;
+    document.getElementById("title3").textContent = data.results.bindings[34].title.value;
+    document.getElementById("title4").textContent = data.results.bindings[78].title.value;
+    document.getElementById("title5").textContent = data.results.bindings[17].title.value;
 }
 showDataOnDisplay();
+
 // IMG ON DISPLAY 
 document.getElementById("item1").src = data.results.bindings[103].afb.value;
 document.getElementById("item2").src = data.results.bindings[50].afb.value;
