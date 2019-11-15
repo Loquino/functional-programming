@@ -23,7 +23,7 @@ h1 > img {
     display: flex;
     ;
 }
-main{
+body{
     margin: 0 2%;
 }
 
@@ -41,6 +41,7 @@ main section:nth-of-type(2){
     position: relative;
     overflow: hidden;
 }
+
 
 
 article {
