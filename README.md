@@ -38,8 +38,6 @@ package.json
 
 ## Documentatie 📖
 Het concept en waarvoor deze applicatie is bedoeld kan je lezen in de [wiki](https://github.com/Loquino/functional-programming/wiki).
-![Concept tekening v1](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-5.jpg)
-
 ![App proto](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-13.png)
 
 
