@@ -8,7 +8,6 @@ function useData (){
     let dataArray = results.map(result => result.lengte.value);
     //console.log(dataArray)
     
-
     //Van de data haal alle alleen de Afbeeldingen op
     let dataPicLink = results.map(result => result.afb.value);
     
