@@ -1,0 +1,23 @@
+{
+  "name": "functional-programing-2",
+  "version": "1.0.0",
+  "description": "This is a functional programing project for my study.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loquino/functional-programing-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Loquino/functional-programing-2/issues"
+  },
+  "homepage": "https://github.com/Loquino/functional-programing-2#readme",
+  "dependencies": {
+    "node": "^13.1.0"
+  }
+}
