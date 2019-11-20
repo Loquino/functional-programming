@@ -23,7 +23,7 @@ h1 > img {
     display: flex;
     ;
 }
-body{
+main, footer{
     margin: 0 2%;
 }
 
