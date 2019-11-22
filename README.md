@@ -4,6 +4,8 @@ Deiver Zamora Cortez • 500785080 | Functional programming | 2019
 In deze repo zie je een concept uitwerking van een webapplicatie. Deze opdracht is voor het tropenmuseum die via het HvA is doorgegeven.
 
 ## Concept 2.0 - Match je lengte met objecten
+Toen er een voorbeeld werd weergegeven in de presentatie van Rick Herder dat je een infographic kon maken van klein naar groot. Kreeg ik gelijk een idee om dit als uitgangspunt te nemen en dit uit te werken. Het idee is om alle voorwerpen/vormen op een groot rechthoekig 
+bord te projecteren. De voorwerpen dat ik heb gekozen zijn geluidsmiddelen, zo kan een bezoeker zijn lengte aangeven in het interactieve bord. Na het invoeren krijgt de bezoekers alle voorwerpen te zien op een volgorde van klein naar groot. Door op een item te klikken kan de gebruiker meer informatie krijgen over het voorwerp. (Het proces van het concept kan je in de logboek bekijken.)
 
 ![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-12.png)
 
