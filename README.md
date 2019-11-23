@@ -2,6 +2,11 @@
 Deiver Zamora Cortez • 500785080 | Functional programming | 2019
 
 In deze repo zie je een concept uitwerking van een webapplicatie. Deze opdracht is voor het tropenmuseum die via het HvA is doorgegeven.
+Voor dat je verder leest kan je ook gebruik maken van de onderstaande shortcuts:
+> Live Demo
+> Installatie
+> De wiki voor meer informatie & documentatie
+
 
 ## Concept 2.0 - Match je lengte met objecten
 Toen er een voorbeeld werd weergegeven in de presentatie van Rick Herder dat je een infographic kon maken van klein naar groot. Kreeg ik gelijk een idee om dit als uitgangspunt te nemen en dit uit te werken. Het idee is om alle voorwerpen/vormen op een groot rechthoekig 
@@ -14,10 +19,7 @@ bord te projecteren. De voorwerpen dat ik heb gekozen zijn geluidsmiddelen, zo k
 ## Concept 3.0 - De langste voorwerpen in verschillende landen.
 Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe mijn concept beter kon maken voor de klant. Hierdoor kon ik de vorige concept veranderen naar een zinvoller concept. Namelijk dat de match mogelijkheid vervangen wordt door sorteer knoppen en een filter megnisme. Met de sorteer knoppen kan je verschillende objecten kiezen, in dit geval zijn het geluidsmiddelen bij voorbeeld een instrument zoals een guitar. Nadat iemand een bepaalde opbject heeft gekozen kan een bezoeker op lengete van de objecten filteren. Het resultaat wordt dan weergegeven in een barchart waaar je 'x' as verschillende lange kan zien en op de 'y' as het verschil kan zien in lengtes.  
 
-![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-13.jpg)
-
-
-
+![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/foto-13.jpg)
 
 In deze repo vind je een prototype applicatie voor een interactieve board. Deze applicatie kan het volgende:
 
