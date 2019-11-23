@@ -53,6 +53,7 @@ D3 chart
 
 ## NMVW API DATA
 De Data die ik gebruik in de app komt van het endpoint van de NMVW collectie. Hoe ik deze data binnenhaal is te lezen op de pagina , dit is met SparQl gedaan. De data die ik terug krijg als object ziet er alsvolgd uit:
+
 ---- anvullen met eigen content -----
 
 ## Auteur
@@ -63,9 +64,11 @@ Horizontal bar chart Blocks example
 Sparql Querry Ivo Zandhuis
 
 
-
 ## Documentatie 📖
 Het concept en waarvoor deze applicatie is bedoeld kan je lezen in de wiki. App proto
 
 ## Issues 🍐
 Dankjewel voor het lezen of gebruik maken van deze app! Mocht er fout zitten in mijn code of iets wat je opvalt laat het mij weten door een issue te starten en we zullen er samen naar kijken, saludos :).
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details
