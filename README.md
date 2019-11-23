@@ -3,7 +3,7 @@ Deiver Zamora Cortez • 500785080 | Functional programming | 2019
 
 In deze repo zie je een concept uitwerking van een webapplicatie. Deze opdracht is voor het tropenmuseum die via het HvA is doorgegeven.
 Voor dat je verder leest kan je ook gebruik maken van de onderstaande shortcuts:
-* Live Demo
+* Live Demo van de app
 * Installatie
 * De wiki voor meer informatie & documentatie
 
@@ -21,10 +21,8 @@ Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe m
 
 ![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/foto-13.jpg)
 
-In deze repo vind je een prototype applicatie voor een interactieve board. Deze applicatie kan het volgende:
 
-
-## Wat kan je doen met deze repo:
+# Dit kan je met deze repo
 * JSON en Query data ophalen
 * Data filteren en manipuleren
 * Lengte formaten opschonen
@@ -41,6 +39,30 @@ npm install -dev
 
 ## Applicatie starten
 npm run dev
+
+## Gebouwd met
+Node - Dependency Management
+Rollup - Pagebuilder
+NMVW API - API voor data
+SparQl - SpaQl taal van de database
+
+## Features
+Data manipulatie
+SparQl Query
+D3 chart
+
+## NMVW API DATA
+De Data die ik gebruik in de app komt van het endpoint van de NMVW collectie. Hoe ik deze data binnenhaal is te lezen op de pagina , dit is met SparQl gedaan. De data die ik terug krijg als object ziet er alsvolgd uit:
+---- anvullen met eigen content -----
+
+## Auteur
+Deiver Zamora Cortez
+
+## Bronnen
+Horizontal bar chart Blocks example
+Sparql Querry Ivo Zandhuis
+
+
 
 ## Documentatie 📖
 Het concept en waarvoor deze applicatie is bedoeld kan je lezen in de wiki. App proto
