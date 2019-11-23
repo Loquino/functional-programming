@@ -10,6 +10,15 @@ bord te projecteren. De voorwerpen dat ik heb gekozen zijn geluidsmiddelen, zo k
 ![Concept tekening 1](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-11.jpg)
 ![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-12.png)
 
+
+## Concept 3.0 - De langste voorwerpen in verschillende landen.
+Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe mijn concept beter kon maken voor de klant. Hierdoor kon ik de vorige concept veranderen naar een zinvoller concept. Namelijk dat de match mogelijkheid vervangen wordt door sorteer knoppen en een filter megnisme. Met de sorteer knoppen kan je verschillende objecten kiezen, in dit geval zijn het geluidsmiddelen bij voorbeeld een instrument zoals een guitar. Nadat iemand een bepaalde opbject heeft gekozen kan een bezoeker op lengete van de objecten filteren. Het resultaat wordt dan weergegeven in een barchart waaar je 'x' as verschillende lange kan zien en op de 'y' as het verschil kan zien in lengtes.  
+
+![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-13.jpg)
+
+
+
+
 In deze repo vind je een prototype applicatie voor een interactieve board. Deze applicatie kan het volgende:
 
 
