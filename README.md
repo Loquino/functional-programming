@@ -3,9 +3,9 @@ Deiver Zamora Cortez • 500785080 | Functional programming | 2019
 
 In deze repo zie je een concept uitwerking van een webapplicatie. Deze opdracht is voor het tropenmuseum die via het HvA is doorgegeven.
 Voor dat je verder leest kan je ook gebruik maken van de onderstaande shortcuts:
-* > Live Demo
-* > Installatie
-* > De wiki voor meer informatie & documentatie
+* Live Demo
+* Installatie
+* De wiki voor meer informatie & documentatie
 
 
 ## Concept 2.0 - Match je lengte met objecten
