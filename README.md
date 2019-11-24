@@ -35,8 +35,12 @@ Installeer dependecies:
 
 `npm install -dev`
 
-## Applicatie starten
-`npm run dev`
+2. Start de app
+
+> Download de VSC code editor voor het gebruik maken van een live server extentensie.
+> Installeer live server 
+
+Klik op de rechter knop op de index.html en run met de liver server optie.
 
 ## Gebouwd met
 Node - Dependency Management
