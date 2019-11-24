@@ -33,12 +33,10 @@ Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe m
 
 Installeer dependecies:
 
-node modules
-
-npm install -dev
+`npm install -dev`
 
 ## Applicatie starten
-npm run dev
+`npm run dev`
 
 ## Gebouwd met
 Node - Dependency Management
@@ -53,8 +51,6 @@ D3 chart
 
 ## NMVW API DATA
 De Data die ik gebruik in de app komt van het endpoint van de NMVW collectie. Hoe ik deze data binnenhaal is te lezen op de pagina , dit is met SparQl gedaan. De data die ik terug krijg als object ziet er alsvolgd uit:
-
----- anvullen met eigen content -----
 
 ## Auteur
 Deiver Zamora Cortez
