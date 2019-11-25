@@ -33,6 +33,7 @@ Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe m
 * HTML CSS
 * SparQl 
 * node modules
+* D3 
  
 
 ## Installatie 🛠
@@ -52,15 +53,10 @@ Installeer dependecies:
 Klik op de rechter knop op de index.html en run met de liver server optie of gebruik de shortcuts: `CMD + L`.
 
 ## Gebouwd met
-Node - Dependency Management
-Rollup - Pagebuilder
-NMVW API - API voor data
-SparQl - SpaQl taal van de database
-
-## Features
-Data manipulatie
-SparQl Query
-D3 chart
+* Node - Dependency Management
+* Rollup - Pagebuilder
+* NMVW API - API voor data
+* SparQl - SpaQl taal van de database
 
 ## NMVW API DATA
 Door middel van een endpoint kan ik gebruik maken van de NMVW API collectie. De data haal ik op met SparQl en is gedocumenteerd in de wiki.
