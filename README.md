@@ -28,7 +28,7 @@ Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe m
 * Lengte formaten opschonen
 
 # Dit heb je nodig om deze repo te begrijpen
-*Kennis in:
+_Kennis in:_
 * JS ES 6
 * HTML CSS
 * SparQl 
