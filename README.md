@@ -37,10 +37,11 @@ Installeer dependecies:
 
 2. Start de app
 
-> Download de VSC code editor voor het gebruik maken van een live server extentensie.
-> Installeer live server 
+> Download Virtual Studio Code voor het gebruik maken van een live server extentensie.
 
-Klik op de rechter knop op de index.html en run met de liver server optie.
+> Installeer live server - Ritwick Dey
+
+Klik op de rechter knop op de index.html en run met de liver server optie of gebruik de shortcuts: `CMD + L`.
 
 ## Gebouwd met
 Node - Dependency Management
@@ -54,21 +55,18 @@ SparQl Query
 D3 chart
 
 ## NMVW API DATA
-De Data die ik gebruik in de app komt van het endpoint van de NMVW collectie. Hoe ik deze data binnenhaal is te lezen op de pagina , dit is met SparQl gedaan. De data die ik terug krijg als object ziet er alsvolgd uit:
+Door middel van een endpoint kan ik gebruik maken van de NMVW API collectie. De data haal ik op met SparQl en is gedocumenteerd in de wiki.
 
-## Auteur
-Deiver Zamora Cortez
-
-## Bronnen
-Horizontal bar chart Blocks example
-Sparql Querry Ivo Zandhuis
+## Credits
+**Project:** Deiver Zamora Cortez
+**Sparql Querry:** Ivo Zandhuis
 
 
 ## Documentatie 📖
-Het concept en waarvoor deze applicatie is bedoeld kan je lezen in de wiki. App proto
+In de documentatie kan je het proces en meer informatie vinden over bepaalde stappen of onderwerpen binnen deze project.
 
 ## Issues 🍐
-Dankjewel voor het lezen of gebruik maken van deze app! Mocht er fout zitten in mijn code of iets wat je opvalt laat het mij weten door een issue te starten en we zullen er samen naar kijken, saludos :).
+Dankjewel voor het lezen of gebruik maken van deze app! Mocht er fouten zitten in mijn code of iets wat je opvalt, laat aan mij weten door een issue te starten en we zullen er samen naar kijken. Saludos Deiver.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details
