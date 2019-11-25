@@ -59,6 +59,7 @@ Door middel van een endpoint kan ik gebruik maken van de NMVW API collectie. De 
 
 ## Credits
 **Project:** Deiver Zamora Cortez
+
 **Sparql Querry:** Ivo Zandhuis
 
 
