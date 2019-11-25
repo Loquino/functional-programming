@@ -27,6 +27,14 @@ Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe m
 * Data filteren en manipuleren
 * Lengte formaten opschonen
 
+# Dit heb je nodig om deze repo te begrijpen
+*Kennis in:
+* JS ES 6
+* HTML CSS
+* SparQl 
+* node modules
+ 
+
 ## Installatie 🛠
 
 1. Clone deze repo
