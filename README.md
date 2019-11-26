@@ -1,23 +1,24 @@
 # Welkom in mijn functional programming project. 🔱
 Deiver Zamora Cortez • 500785080 | Functional programming | 2019
 
-In deze repo zie je een concept uitwerking van een webapplicatie. Deze opdracht is voor het tropenmuseum die via het HvA is doorgegeven.
-Voor dat je verder leest kan je ook gebruik maken van de onderstaande shortcuts:
+In deze repo zie je de conceptuitwerking van een webapplicatie. Deze opdracht is voor het Tropenmuseum die via het HvA als opdrachtgever fungeerde.
+Voordat je verder leest kan je ook gebruik maken van de onderstaande shortcuts:
 * Live Demo van de app
 * Installatie
 * De wiki voor meer informatie & documentatie
 
 
 ## Concept 2.0 - Match je lengte met objecten
-Toen er een voorbeeld werd weergegeven in de presentatie van Rick Herder dat je een infographic kon maken van klein naar groot. Kreeg ik gelijk een idee om dit als uitgangspunt te nemen en dit uit te werken. Het idee is om alle voorwerpen/vormen op een groot rechthoekig 
-bord te projecteren. De voorwerpen dat ik heb gekozen zijn geluidsmiddelen, zo kan een bezoeker zijn lengte aangeven in het interactieve bord. Na het invoeren krijgt de bezoekers alle voorwerpen te zien op een volgorde van klein naar groot. Door op een item te klikken kan de gebruiker meer informatie krijgen over het voorwerp. (Het proces van het concept kan je in de logboek bekijken.)
+Toen er een voorbeeld werd gegeven in de presentatie van Rick Herder dat je een infographic kon maken over voorwerpen in de collectie van klein naar groot, kreeg ik gelijk het idee om dit als uitgangspunt te nemen en dit uit te werken. Het idee is om alle voorwerpen/vormen binnen een categorie op een groot rechthoekig bord te projecteren. De voorwerpen die ik heb gekozen om te visualiseren zijn geluidsmiddelen; een bezoeker geeft zijn lengte aan op een interactief bord en krijgt daarna alle voorwerpen te zien die dezelfde lengte hebben. Bijvoorbeeld; een kind heeft dezelfde lengte als een gitaar, dus komt de gitaar als match tevoorschijn. Na het invoeren van diens lengte krijgt de bezoeker het matchende voorwerp te zien, en kan vervolgens dmv zijwaarts scrollen alle andere voorwerpen zien die dan groter/kleiner dan dat zijn, op een volgorde van klein naar groot. Door op een item te tappen kan de gebruiker meer informatie krijgen over het voorwerp. (Het proces van het concept kan je in het [logboek](https://github.com/Loquino/functional-programming/wiki/Logboek) bekijken.)
+
+
 
 ![Concept tekening 1](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-11.jpg)
 ![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/Foto-12.png)
 
 
 ## Concept 3.0 - De langste voorwerpen in verschillende landen.
-Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe mijn concept beter kon maken voor de klant. Hierdoor kon ik de vorige concept veranderen naar een zinvoller concept. Namelijk dat de match mogelijkheid vervangen wordt door sorteer knoppen en een filter megnisme. Met de sorteer knoppen kan je verschillende objecten kiezen, in dit geval zijn het geluidsmiddelen bij voorbeeld een instrument zoals een guitar. Nadat iemand een bepaalde opbject heeft gekozen kan een bezoeker op lengete van de objecten filteren. Het resultaat wordt dan weergegeven in een barchart waaar je 'x' as verschillende lange kan zien en op de 'y' as het verschil kan zien in lengtes.  
+Tijdens het uitleggen van mijn concept aan Danny, heb ik feedback gekregen hoe ik mijn concept beter kon maken voor de klant. Hierdoor kon ik het vorige concept veranderen naar een zinvoller concept, namelijk; de matchmogelijkheid wordt vervangen door sorteerknoppen en een filtermechanisme. Met de sorteerknoppen kan je verschillende objecten kiezen, in dit geval zijn het geluidsmiddelen; bijvoorbeeld een gitaar als instrument. Nadat iemand een bepaald opbject heeft gekozen kan een bezoeker op lengte van de objecten filteren. Het resultaat wordt dan weergegeven in een barchart waarbij je de 'x'-as als verschillende lengtes kan zien en op de 'y'-as het verschil kan zien in lengtes.  
 
 ![Aantekeningen](https://github.com/Loquino/functional-programming/blob/master/Proces%20afbeeldingen/foto-13.jpg)
 
@@ -25,12 +26,12 @@ Tijdens het uitleggen van mijn concept aan Danny. Heb ik feedback gekregen hoe m
 # Dit kan je met deze repo
 * JSON en Query data ophalen
 * Data filteren en manipuleren
-* Lengte formaten opschonen
+* Lengte-formaten opschonen
 
 # Dit heb je nodig om deze repo te begrijpen
 _Kennis in:_
-* JS ES 6
-* HTML CSS
+* JS: ES6
+* HTML/CSS
 * SparQl 
 * node modules
 * D3 
